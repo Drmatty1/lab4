@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Enter a no :");
+    scanf("%d",&a);
+    if(a>0?1:0)
+        printf("%d is Positve",a);
+    else
+        printf("%d is Negative",a);
+        
+        if(!(a&1))
+       printf("\n%d is Even",a);
+     else
+       printf("\n%d is odd",a);
+     
+        return 0;
+    
+}
